@@ -1,8 +1,8 @@
 :root {
   /* --- New color palette (Blue + Teal) --- */
   --brand-bg: #1e3a8a;       /* deep blue (nav + footer) */
-  --brand-accent: #14b8a6;   /* teal accent */
-  --brand-accent-2: #99f6e4; /* pale teal for logo background */
+  --brand-accent: #FDBD01;   /* neon gold */
+  --brand-accent-2: #fde68a;/* pale amber */
   --text: #1f2937;           /* dark gray text */
   --text-invert: #f8fafc;    /* off-white text for dark backgrounds */
   --page-bg: #f8fafc;        /* light page background */
@@ -57,7 +57,7 @@ header {
 }
 
 .nav a:hover {
-  background: rgba(20, 184, 166, .2); /* teal hover */
+  background: rgba(219, 170, 63, 0.2); /* light orange hover */
 }
 
 .nav a.active {
