@@ -75,6 +75,20 @@ main {
 
 h1 { margin-top: 0; }
 
+/* --- Content cards --- */
+.card {
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 16px;
+  background: #ffffff;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
 /* --- Footer --- */
 footer {
   margin-top: 40px;
