@@ -11,6 +11,9 @@
 /* --- Reset & base styles --- */
 * { box-sizing: border-box; }
 html, body {
+  height: 100%;               /* full viewport height */
+  display: flex;
+  flex-direction: column;     /* vertical stack: header → main → footer */
   margin: 0;
   padding: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -64,6 +67,7 @@ header {
 
 /* --- Main content area --- */
 main {
+  flex: 1;                    /* take up all available space */
   max-width: 1000px;
   margin: 24px auto;
   padding: 0 16px;
