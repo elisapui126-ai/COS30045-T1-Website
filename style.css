@@ -86,6 +86,12 @@ h1 { margin-top: 0; }
 .grid {
   display: grid;
   gap: 16px;
+  grid-template-columns: 1fr; /* always 1 column */
+}
+
+.grid-vertical {
+  display: grid;
+  gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
