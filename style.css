@@ -30,6 +30,27 @@ header {
   border-bottom: 3px solid var(--brand-accent);
 }
 
+h1 {
+  font-size: 2.2rem;              /* bigger font */
+  font-weight: 700;               /* bold */
+  margin: 1rem 0 1.5rem;          /* spacing around title */
+  color: var(--brand-bg);         /* deep blue */
+  text-align: center;             /* center the title */
+  letter-spacing: 1px;            /* slight spacing for elegance */
+  position: relative;             /* allow for decoration */
+}
+
+/* --- Add underline accent below h1 --- */
+h1::after {
+  content: "";
+  display: block;
+  width: 60px;                    /* length of the line */
+  height: 4px;                    /* thickness */
+  background: var(--brand-accent);/* neon gold */
+  margin: 8px auto 0;             /* center it under text */
+  border-radius: 2px;
+}
+
 .nav {
   max-width: 1000px;
   margin: auto;
