@@ -24,7 +24,7 @@ html, body {
 /* --- Header & Navigation bar --- */
 header {
   background: var(--brand-bg);
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 10;
   border-bottom: 3px solid var(--brand-accent);
