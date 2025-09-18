@@ -29,7 +29,6 @@ header {
   z-index: 10;
   width: 100%;
   z-index: 1000; 
-  border-bottom: 3px solid var(--brand-accent);
 }
 
 h1 {
