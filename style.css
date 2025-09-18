@@ -19,7 +19,6 @@ html, body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color: var(--text);
   background: var(--page-bg);
-  padding-top: 30px; 
 }
 
 /* --- Header & Navigation bar --- */
