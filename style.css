@@ -27,6 +27,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
+  width: 100%;
   border-bottom: 3px solid var(--brand-accent);
 }
 
@@ -92,6 +93,7 @@ main {
   max-width: 1000px;
   margin: 24px auto;
   padding: 0 16px;
+  padding-top: 30px;
 }
 
 h1 { margin-top: 0; }
